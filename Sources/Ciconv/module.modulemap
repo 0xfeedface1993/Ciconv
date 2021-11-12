@@ -1,0 +1,7 @@
+//Sources/Cxlsxwriter/module.modulemap
+module Ciconv {
+    header "../../Headers/Ciconv-Bridging-Header.h"
+    /*header "/usr/local/include/iconv.h"*/
+    link "iconv"
+    export *
+}
