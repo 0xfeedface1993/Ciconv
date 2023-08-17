@@ -1,5 +1,5 @@
 module Ciconv {
-    header "/usr/local/include/iconv.h"
+    header "/usr/local/opt/libiconv/include/iconv.h"
     link "iconv"
     export *
 }
